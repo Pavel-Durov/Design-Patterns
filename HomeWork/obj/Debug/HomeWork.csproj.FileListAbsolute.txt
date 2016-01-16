@@ -1,0 +1,5 @@
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\HomeWork\bin\Debug\HomeWork.dll
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\HomeWork\bin\Debug\HomeWork.pdb
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\HomeWork\obj\Debug\HomeWork.csprojResolveAssemblyReference.cache
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\HomeWork\obj\Debug\HomeWork.dll
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\HomeWork\obj\Debug\HomeWork.pdb

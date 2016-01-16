@@ -1,0 +1,6 @@
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\StructuralDesignPatterns\obj\Debug\StructuralDesignPatterns.csprojResolveAssemblyReference.cache
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\StructuralDesignPatterns\bin\Debug\StructuralDesignPatterns.exe.config
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\StructuralDesignPatterns\bin\Debug\StructuralDesignPatterns.exe
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\StructuralDesignPatterns\bin\Debug\StructuralDesignPatterns.pdb
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\StructuralDesignPatterns\obj\Debug\StructuralDesignPatterns.exe
+C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\StructuralDesignPatterns\obj\Debug\StructuralDesignPatterns.pdb
