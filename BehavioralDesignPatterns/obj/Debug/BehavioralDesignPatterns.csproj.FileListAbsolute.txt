@@ -4,3 +4,6 @@ C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPattern
 C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.csprojResolveAssemblyReference.cache
 C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.exe
 C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.pdb
+E:\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.exe.config
+E:\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.exe
+E:\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.pdb

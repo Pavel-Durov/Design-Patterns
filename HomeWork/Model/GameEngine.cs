@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HomeWork
 {
-    class GameManager
+    class GameEngine
     {
 
-        public GameManager()
+        public GameEngine()
         {
             //TODO: set me as thread safe singletone!
         }
