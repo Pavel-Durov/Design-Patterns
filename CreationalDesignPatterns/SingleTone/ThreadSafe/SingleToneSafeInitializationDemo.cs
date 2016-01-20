@@ -8,22 +8,22 @@ namespace CreationalDesignPatterns.SingleTone.ThreadSafe
 
         public static SingleToneSafeInitializationDemo getInstance()
         {
-            if (_instance == null)
-            {
-                try
-                {//Why we se try-catch?
-
-                    lock (_sync)//Why we use lock?
+            try
+            {//Why we se try-catch?
+                lock (_sync)//Why we use lock?
+                {
+                    if (_instance == null)
                     {
                         _instance = new SingleToneSafeInitializationDemo();
                     }
                 }
-                catch (Exception e)
-                {
-                    throw new Exception("failed to set instance...", e);
-                }
-
             }
+            catch (Exception e)
+            {
+                throw new Exception("failed to set instance...", e);
+            }
+
+            
 
             return _instance;
         }
