@@ -1,5 +1,5 @@
-﻿In this assignment you will create a GameManger class which will have all the buisness logic of our game.
-GameManger will be located in .dll (PCL) poject and will be referanced from your UI project. 
+In this assignment you will create a GameManger class which will have all the business logic of our game.
+GameManger will be located in .dll (PCL) project and will be referenced from your UI project. 
 * No need in fancy UI - Console Application is just fine..
 
 GameManger - A singletone object that will be in charge of our game flow.
@@ -34,8 +34,9 @@ PlayerCharacter : GameCharacter
 
 * All of the characters have to be created by a Factory (you can choose between Abstract and Method patterns)...
 * Feel free to to add your logic.
-* Feel free to craete your own charechters, but make sure they all derives from GameCharacter object.
+* Feel free to craete your own characters, but make sure they all derives from GameCharacter object.
 * You cannot remove methods/properties from GameCharacter class, but you can expand it.
 
 
 Goodluck
+
