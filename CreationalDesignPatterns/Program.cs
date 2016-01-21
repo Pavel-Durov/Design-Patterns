@@ -14,7 +14,6 @@ namespace CreationalDesignPatterns
 
             //SingleTone.Test.Run();
             //Prototype.Test.Run();
-
             Factory.FactoryMethod.Test.Run();
             Console.ReadLine();
         }
