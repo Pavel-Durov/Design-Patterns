@@ -8,9 +8,9 @@ namespace CreationalDesignPatterns.Factory.FactoryMethod.Rooms
 {
     class MagicRoom : Room
     {
-        public MagicRoom()
+        public MagicRoom(double width, double height, double x, double y) : base(width, height, x, y)
         {
-            Console.WriteLine($"MAGIC ROOM CREATED i = {_instanceCount}");
+
         }
     }
 }

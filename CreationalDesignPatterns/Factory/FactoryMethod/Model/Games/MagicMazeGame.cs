@@ -16,7 +16,7 @@ namespace CreationalDesignPatterns.Factory.FactoryMethod
         
         public Room MakeRoom()
         {
-            return new MagicRoom();
+            return new MagicRoom(100, 100,0,0);
         }
     }
 }

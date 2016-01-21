@@ -6,12 +6,23 @@ using System.Threading.Tasks;
 
 namespace CreationalDesignPatterns.Factory.FactoryMethod.Rooms
 {
-    class Room
+    abstract class Room
     {
-        public Room()
+        public Room(double width, double height, double x, double y)
         {
+            Console.WriteLine($"MAGIC ROOM CREATED i = {_instanceCount}");
+            X = x;
+            Y = y;
+
             ++_instanceCount;
         }
+
+        public double X { get; private set; }
+        public double Y { get; private set; }
+
+        public double Width { get; private set; }
+        public double Height { get; private set; }
+
 
         protected static int _instanceCount;
     }

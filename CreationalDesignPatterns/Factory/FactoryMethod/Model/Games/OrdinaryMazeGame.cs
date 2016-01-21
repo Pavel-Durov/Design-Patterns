@@ -13,9 +13,21 @@ namespace CreationalDesignPatterns.Factory.FactoryMethod
         {
             Console.WriteLine("Ordinary Game Mode Set");
         }
+
+        OrdinaryRoom _prevRoom;
         public Room MakeRoom()
         {
-            return new OrdinaryRoom();
+            OrdinaryRoom result = null;
+            if (_prevRoom != null)
+            {
+                result = new OrdinaryRoom(result.Width, result.Height, result.X + 1, result.Y + 1);
+                _prevRoom = result;
+            }
+            else {
+
+                result = new OrdinaryRoom(100, 100, 0, 0);
+            }
+            return result;
         }
     }
 }
