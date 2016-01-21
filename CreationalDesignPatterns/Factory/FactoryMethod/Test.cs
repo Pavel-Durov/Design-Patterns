@@ -16,16 +16,13 @@ namespace CreationalDesignPatterns.Factory.FactoryMethod
             var ordinaryGame = new OrdinaryMazeGame();
             GameEngine engine = new GameEngine(ordinaryGame);
 
+            Console.WriteLine("Game's on");
+
             engine.Start();
             var magicMazeGame = new MagicMazeGame();
 
-            engine.Switch(magicMazeGame);
-            
-            Console.WriteLine("Game's on");
+            Console.WriteLine("SWITCHING TO MAGIC MODE");
+            engine.Switch(magicMazeGame);   
         }
-        
-
-
-
     }
 }
