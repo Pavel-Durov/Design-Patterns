@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -74,6 +76,15 @@
     <Compile Include="Flyweight\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Interfaces\ICashProvider.cs" />
+    <Compile Include="Proxy\Model\AtmMachineProxy.cs" />
+    <Compile Include="Proxy\Model\AtmMachine\Model\AtmMachine.cs" />
+    <Compile Include="Proxy\Model\AtmMachine\States\Base\AtmMachineState.cs" />
+    <Compile Include="Proxy\Model\AtmMachine\States\HasCardState.cs" />
+    <Compile Include="Proxy\Model\AtmMachine\States\HasPinState.cs" />
+    <Compile Include="Proxy\Model\AtmMachine\States\NoCardState.cs" />
+    <Compile Include="Proxy\Model\AtmMachine\States\NoCashState.cs" />
+    <Compile Include="Proxy\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

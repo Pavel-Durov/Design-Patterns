@@ -14,9 +14,9 @@ namespace StructuralDesignPatterns
 
 
             //Composite.Test.Run();
-
             //Decorator.Test.Run();
-            Flyweight.Test.Run();
+            //Flyweight.Test.Run();
+            Proxy.Test.Run();
 
             Console.ReadLine();
         }
