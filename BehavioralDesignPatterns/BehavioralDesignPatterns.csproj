@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChainOfResponsibility\Interface\IFileHandler.cs" />
+    <Compile Include="ChainOfResponsibility\Model\Chains\PdfHadler.cs" />
+    <Compile Include="ChainOfResponsibility\Model\Chains\PngHandler.cs" />
+    <Compile Include="ChainOfResponsibility\Model\Chains\JpegHandler.cs" />
+    <Compile Include="ChainOfResponsibility\Model\File.cs" />
+    <Compile Include="ChainOfResponsibility\Test.cs" />
     <Compile Include="Observer\Interfaces\IObserver.cs" />
     <Compile Include="Observer\Interfaces\ISubject.cs" />
     <Compile Include="Observer\Model\PriceObserver.cs" />

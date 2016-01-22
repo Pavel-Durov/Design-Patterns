@@ -12,8 +12,8 @@ namespace BehavioralDesignPatterns
         {
             //State.Test.Run();
             //Visitor.Test.Run();
-
-            Observer.Test.Run();
+            ChainOfResponsibility.Test.Run();
+            //Observer.Test.Run();
             //Strategy.Test.Run();
             Console.ReadLine();
         }
