@@ -10,3 +10,9 @@ E:\Sela\DN7\Examples\DesignPatterns\BehavioralDesignPatterns\obj\Debug\Behaviora
 C:\Git\github\DesignPatterns-DN7\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.exe.config
 C:\Git\github\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.exe
 C:\Git\github\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.pdb
+C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.exe.config
+C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.exe
+C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.pdb
+C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.exe
+C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.pdb
+C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.csprojResolveAssemblyReference.cache

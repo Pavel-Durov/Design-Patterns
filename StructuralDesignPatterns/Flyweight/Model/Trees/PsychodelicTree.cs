@@ -8,27 +8,30 @@ using StructuralDesignPatterns.Flyweight.Model.Textures;
 
 namespace StructuralDesignPatterns.Flyweight.Model.Trees
 {
-    class HawthornTree : Tree
+    class PsychodelicTree : Tree
     {
-        public HawthornTree(double height = 0, double width = 0)
-            : base(new SoftTexture(), ConsoleColor.Black, ConsoleColor.DarkGray, height, width)
+        public PsychodelicTree(double height = 0, double width = 0) 
+            : base(new PointyTexture(), ConsoleColor.Red, ConsoleColor.Magenta, height, width)
         {
+
         }
 
+        
 
         public override async Task Render()
         {
             if (!_alreadyRendered)
             {
-                Console.WriteLine("HawthornTree - RENDER - START");
+                Console.WriteLine("PsychodelicTree - RENDER - START");
                 await Task.Delay(356);
-                Console.WriteLine("HawthornTree - RENDER - END");
+                Console.WriteLine("PsychodelicTree - RENDER - END");
                 _alreadyRendered = true;
             }
             else
             {
-                Console.WriteLine("HawthornTree : I'm already rendered - Flyweight is the best...");
+                Console.WriteLine("PsychodelicTree : I'm already rendered - Flyweight is the best...");
             }
         }
+
     }
 }

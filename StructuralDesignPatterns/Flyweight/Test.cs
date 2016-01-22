@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StructuralDesignPatterns.Flyweight.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace StructuralDesignPatterns.Flyweight
     {
         public static void Run()
         {
-
+            ForestSimulator forestSimulator = new ForestSimulator(new TreesFlyweight());
+            forestSimulator.Render();
         }
     }
 }

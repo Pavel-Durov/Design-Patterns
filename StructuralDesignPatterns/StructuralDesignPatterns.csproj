@@ -60,6 +60,18 @@
     <Compile Include="Decorator\Model\CupcakeSmartOven.cs" />
     <Compile Include="Decorator\Model\PlainCupcake.cs" />
     <Compile Include="Decorator\Test.cs" />
+    <Compile Include="Flyweight\Model\ForestSimulator.cs" />
+    <Compile Include="Flyweight\Model\TreesFlyweight.cs" />
+    <Compile Include="Flyweight\Model\Textures\Base\Texture.cs" />
+    <Compile Include="Flyweight\Model\Textures\DryTexture.cs" />
+    <Compile Include="Flyweight\Model\Textures\PointyTexture.cs" />
+    <Compile Include="Flyweight\Model\Textures\RainTexture.cs" />
+    <Compile Include="Flyweight\Model\Textures\SoftTexture.cs" />
+    <Compile Include="Flyweight\Model\Trees\PsychodelicTree.cs" />
+    <Compile Include="Flyweight\Model\Trees\Base\Tree.cs" />
+    <Compile Include="Flyweight\Model\Trees\ArborvitaeTree.cs" />
+    <Compile Include="Flyweight\Model\Trees\HawthornTree.cs" />
+    <Compile Include="Flyweight\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
