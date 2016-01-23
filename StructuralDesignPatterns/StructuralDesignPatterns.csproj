@@ -62,6 +62,11 @@
     <Compile Include="Decorator\Model\CupcakeSmartOven.cs" />
     <Compile Include="Decorator\Model\PlainCupcake.cs" />
     <Compile Include="Decorator\Test.cs" />
+    <Compile Include="Facade\Facade\BankAccountFacade.cs" />
+    <Compile Include="Facade\Model\AccountFundsValidator.cs" />
+    <Compile Include="Facade\Model\AccountNumberValidator.cs" />
+    <Compile Include="Facade\Model\SecurityCodeValidator.cs" />
+    <Compile Include="Facade\Test.cs" />
     <Compile Include="Flyweight\Model\ForestSimulator.cs" />
     <Compile Include="Flyweight\Model\TreesFlyweight.cs" />
     <Compile Include="Flyweight\Model\Textures\Base\Texture.cs" />
