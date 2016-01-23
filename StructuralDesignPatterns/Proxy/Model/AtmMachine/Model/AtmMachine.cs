@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BehavioralDesignPatterns.State.Model
 {
-    class AtmMachine: IATMMachine
+    class AtmMachine: ICashProvider
     {
         public AtmMachine(double balance)
         {

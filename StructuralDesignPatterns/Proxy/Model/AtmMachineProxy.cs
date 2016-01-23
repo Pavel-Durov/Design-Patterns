@@ -9,7 +9,7 @@ using BehavioralDesignPatterns.State.States.Base;
 
 namespace StructuralDesignPatterns.Proxy.Model
 {
-    class AtmMachineProxy : IATMMachine
+    class AtmMachineProxy : ICashProvider
     {
         public AtmMachineProxy()
         {

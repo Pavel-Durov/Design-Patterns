@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDesignPatterns.Proxy.Interfaces
 {
-    interface IATMMachine
+    interface ICashProvider
     {
         void InsertCard();
         void RequestCash(int amount);
