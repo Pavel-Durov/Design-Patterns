@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\Builders\ArmyRobotBuilder.cs" />
+    <Compile Include="Builder\Interfaces\IRobotBuilder.cs" />
+    <Compile Include="Builder\Interfaces\IRobotPlan.cs" />
+    <Compile Include="Builder\Builders\HomeKeeperRootBuilder.cs" />
+    <Compile Include="Builder\Model\Robot.cs" />
+    <Compile Include="Builder\Model\RobotEngineer.cs" />
+    <Compile Include="Builder\Model\RobotParts\Base\RobotPart.cs" />
+    <Compile Include="Builder\Model\RobotParts\RobotArm.cs" />
+    <Compile Include="Builder\Model\RobotParts\RobotHead.cs" />
+    <Compile Include="Builder\Model\RobotParts\RobotTorso.cs" />
+    <Compile Include="Builder\Model\RobotParts\RobotLeg.cs" />
+    <Compile Include="Builder\Test.cs" />
     <Compile Include="Factory\AbstractrFactory\Factories\Base\AbstractCarFactory.cs" />
     <Compile Include="Factory\AbstractrFactory\Model\Cars\Base\Car.cs" />
     <Compile Include="Factory\AbstractrFactory\Factories\HondaFactory.cs" />
@@ -51,6 +63,7 @@
     <Compile Include="Factory\AbstractrFactory\Model\Cars\SportCar.cs" />
     <Compile Include="Factory\AbstractrFactory\Model\Consumer.cs" />
     <Compile Include="Factory\AbstractrFactory\Test.cs" />
+    <Compile Include="Factory\FactoryMethod\GameEngine.cs" />
     <Compile Include="Factory\FactoryMethod\Model\Games\MagicMazeGame.cs" />
     <Compile Include="Factory\FactoryMethod\Model\Games\Interfaces\MazeGame.cs" />
     <Compile Include="Factory\FactoryMethod\Model\Games\OrdinaryMazeGame.cs" />

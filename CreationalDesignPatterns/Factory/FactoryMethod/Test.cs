@@ -1,4 +1,5 @@
 ﻿
+
 using CreationalDesignPatterns.Factory.FactoryMethod.Model;
 using CreationalDesignPatterns.Factory.FactoryMethod.Rooms;
 using System;
@@ -22,7 +23,7 @@ namespace CreationalDesignPatterns.Factory.FactoryMethod
             var magicMazeGame = new MagicMazeGame();
 
             Console.WriteLine("SWITCHING TO MAGIC MODE");
-            engine.Switch(magicMazeGame);   
+            engine.Switch(magicMazeGame);
         }
     }
 }

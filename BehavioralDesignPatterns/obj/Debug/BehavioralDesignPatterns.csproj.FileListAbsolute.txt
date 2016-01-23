@@ -15,4 +15,3 @@ C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\Behav
 C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.pdb
 C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.exe
 C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\bin\Debug\BehavioralDesignPatterns.pdb
-C:\VC\Git\myProjects\DesignPatterns-DN7\BehavioralDesignPatterns\obj\Debug\BehavioralDesignPatterns.csprojResolveAssemblyReference.cache

@@ -4,3 +4,8 @@ C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\CreationalDesignPattern
 C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\CreationalDesignPatterns\bin\Debug\CreationalDesignPatterns.pdb
 C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\CreationalDesignPatterns\obj\Debug\CreationalDesignPatterns.exe
 C:\Users\pduro\OneDrive\Sela\DN7\Examples\DesignPatterns\CreationalDesignPatterns\obj\Debug\CreationalDesignPatterns.pdb
+C:\VC\Git\myProjects\DesignPatterns-DN7\CreationalDesignPatterns\obj\Debug\CreationalDesignPatterns.exe
+C:\VC\Git\myProjects\DesignPatterns-DN7\CreationalDesignPatterns\obj\Debug\CreationalDesignPatterns.pdb
+C:\VC\Git\myProjects\DesignPatterns-DN7\CreationalDesignPatterns\bin\Debug\CreationalDesignPatterns.exe.config
+C:\VC\Git\myProjects\DesignPatterns-DN7\CreationalDesignPatterns\bin\Debug\CreationalDesignPatterns.exe
+C:\VC\Git\myProjects\DesignPatterns-DN7\CreationalDesignPatterns\bin\Debug\CreationalDesignPatterns.pdb

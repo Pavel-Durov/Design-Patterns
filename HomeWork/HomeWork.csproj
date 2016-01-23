@@ -44,7 +44,7 @@
     <Compile Include="Model\Characters\Enemies\CaveMonsterCharacter.cs" />
     <Compile Include="Model\Characters\Enemies\GhostCharacter.cs" />
     <Compile Include="Model\Characters\PlayerCharacter.cs" />
-    <Compile Include="Model\GameManager.cs" />
+    <Compile Include="Model\GameEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
