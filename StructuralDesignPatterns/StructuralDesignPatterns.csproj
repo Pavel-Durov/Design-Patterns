@@ -50,6 +50,14 @@
     <Compile Include="Adapter\Model\RoombaRobot.cs" />
     <Compile Include="Adapter\RobotAdapter.cs" />
     <Compile Include="Adapter\Test.cs" />
+    <Compile Include="Bridge\Interfaces\DrawingAPI.cs" />
+    <Compile Include="Bridge\Model\DrawingAPIs\ShapeDrawing2d.cs" />
+    <Compile Include="Bridge\Model\DrawingAPIs\ShapeDrawing3d.cs" />
+    <Compile Include="Bridge\Model\Shapes\Base\DrawableShape.cs" />
+    <Compile Include="Bridge\Model\Shapes\Circle.cs" />
+    <Compile Include="Bridge\Model\Shapes\Cube.cs" />
+    <Compile Include="Bridge\Model\Shapes\Sphere.cs" />
+    <Compile Include="Bridge\Test.cs" />
     <Compile Include="Composite\Model\Directory.cs" />
     <Compile Include="Composite\Model\File.cs" />
     <Compile Include="Composite\Model\FileComponent.cs" />

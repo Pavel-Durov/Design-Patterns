@@ -17,8 +17,9 @@ namespace StructuralDesignPatterns
             //Decorator.Test.Run();
             //Flyweight.Test.Run();
             //Proxy.Test.Run();
-            Facade.Test.Run();
-
+            //Facade.Test.Run();
+            //Bridge2.Test.Run();
+            Bridge.Test.Run();
             Console.ReadLine();
         }
     }
