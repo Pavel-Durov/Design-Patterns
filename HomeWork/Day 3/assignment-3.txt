@@ -1,0 +1,10 @@
+﻿Covered Design Paterns:
+	StructuralDesignPatterns: Decorator / Proxy / Flyweight / Composite / Facade
+
+
+In this assignment we will continue the previous projects - our "GameEngine".
+
+TODO List:
+	1. Craete TerrainHandler which will be in charge of creating our game word. Use Flyweight for word objects generations. For instance, trees, grass etc ( no need in big amount of objects instance - just make sure you understood the pattern)...
+
+	2.  ...

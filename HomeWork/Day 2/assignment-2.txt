@@ -1,0 +1,12 @@
+﻿overed Design Patterns:
+	BehavioralDesignPatterns: State / Observer / Strategy / Visitor / ChainOfResponsibility
+
+
+In this assignment we will continue the previous projects - our "GameEngine".
+TODO List:
+	1. Implement State pattern inside of MovementHandler which will have those states:
+		SlowMotion, Normal, HighSpeed which will advance the characters appropriately
+	
+	2. Implement Visitor pattern which will visit all our characters, with two visitors:
+		EnhancePowerVisitr -> will add +2 for each enemy Damage
+		SicknessVisitor -> will decreases -2 for each enemy Damage and decreases their health on each movement by 1

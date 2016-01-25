@@ -1,4 +1,7 @@
-﻿In this assignment you will create a GameEngine class which will have all the business logic of our game.
+﻿Covered Design-Patterns: 
+		Creational Design Patterns: SingleTone / Abstract Factory / Factory Method
+
+In this assignment you will create a GameEngine class which will have all the business logic of our game.
 GameEngine will be located in .dll (PCL) project and will be referenced from your UI project. 
 * No need in fancy UI - Console Application is just fine..
 
