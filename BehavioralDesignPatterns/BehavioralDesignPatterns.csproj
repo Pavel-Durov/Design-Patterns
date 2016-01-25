@@ -49,6 +49,16 @@
     <Compile Include="ChainOfResponsibility\Model\Chains\JpegHandler.cs" />
     <Compile Include="ChainOfResponsibility\Model\File.cs" />
     <Compile Include="ChainOfResponsibility\Test.cs" />
+    <Compile Include="Command\Interfaces\ICommand.cs" />
+    <Compile Include="Command\Interfaces\IElectronicDevice.cs" />
+    <Compile Include="Command\Model\Commands\TurnTvOffCommand.cs" />
+    <Compile Include="Command\Model\Commands\TurnTvOnCommand.cs" />
+    <Compile Include="Command\Model\Commands\VolumeDownTvCommand.cs" />
+    <Compile Include="Command\Model\Commands\VolumeUpTvCommand.cs" />
+    <Compile Include="Command\Model\DeviceButton.cs" />
+    <Compile Include="Command\Model\Television.cs" />
+    <Compile Include="Command\Model\TvRemote.cs" />
+    <Compile Include="Command\Test.cs" />
     <Compile Include="Observer\Interfaces\IObserver.cs" />
     <Compile Include="Observer\Interfaces\ISubject.cs" />
     <Compile Include="Observer\Model\PriceObserver.cs" />
