@@ -56,7 +56,7 @@
     <Compile Include="Command\Model\Commands\VolumeDownTvCommand.cs" />
     <Compile Include="Command\Model\Commands\VolumeUpTvCommand.cs" />
     <Compile Include="Command\Model\DeviceButton.cs" />
-    <Compile Include="Command\Model\Television.cs" />
+    <Compile Include="Command\Model\Devices\Television.cs" />
     <Compile Include="Command\Model\TvRemote.cs" />
     <Compile Include="Command\Test.cs" />
     <Compile Include="Observer\Interfaces\IObserver.cs" />

@@ -17,19 +17,19 @@ namespace BehavioralDesignPatterns.Visitor
         {
             GroceryStore store = new GroceryStore();
 
-            //IProductVisitor visitor = new InflationVisitor(1.3);
-            IProductVisitor visitor = new ProductNameVisitor("BEST-STORE-EVER");
-            for (int i = 0; i < 1; i++)
+            IProductVisitor visitor = new InflationVisitor(1.3);
+            //IProductVisitor visitor = new ProductNameVisitor("BEST-STORE-EVER");
+            for (int i = 0; i < 10; i++)
             {
                 store.Add(new Tobacco(30));
             }
 
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 10; i++)
             {
                 store.Add(new Bread(30));
             }
 
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 10; i++)
             {
                 store.Add(new Milk(30));
             }
@@ -38,7 +38,7 @@ namespace BehavioralDesignPatterns.Visitor
 
             Console.WriteLine(" @@ INFALTION @@ ");
 
-            store.Inflation(visitor);
+            store.AcceptVisitor(visitor);
             store.PrintPrices();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using BehavioralDesignPatterns.Strategy.Model.Animals;
+using BehavioralDesignPatterns.Strategy.Model.Animals.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +12,17 @@ namespace BehavioralDesignPatterns.Strategy
     {
         public static void Run()
         {
-            Cow cow = new Cow(80);
-            Bear bear = new Bear(80);
-            Duck duck = new Duck(100);
+            Animal cow = new Cow(80);
+            Animal bear = new Bear(80);    
+            Animal duck = new Duck(100);
 
+            Console.WriteLine(cow.Sound);
             Console.WriteLine(cow.TryToFly());
+
+            Console.WriteLine(bear.Sound);
             Console.WriteLine(bear.TryToFly());
+
+            Console.WriteLine(duck.Sound);
             Console.WriteLine(duck.TryToFly());
             
         }

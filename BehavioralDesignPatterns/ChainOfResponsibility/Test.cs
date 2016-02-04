@@ -12,17 +12,17 @@ namespace BehavioralDesignPatterns.ChainOfResponsibility
     class Test
     {
         public static void Run()
-        {
-            File file = new File("my-image", ".jpg");
+        { 
+            File file = new File("my-image", ".pdf");
 
-            IFileHandler handler = new JpegHandler();
+            IFileHandler rootOfChain = new JpegHandler();
             IFileHandler pngHandler = new PngHandler();
             IFileHandler pdfHandler = new PdfHandler();
 
-            handler.SetNext(pngHandler);
+            rootOfChain.SetNext(pngHandler);
             pngHandler.SetNext(pdfHandler);
 
-            handler.Handle(file);
+            rootOfChain.Handle(file);
         }
     }
 }

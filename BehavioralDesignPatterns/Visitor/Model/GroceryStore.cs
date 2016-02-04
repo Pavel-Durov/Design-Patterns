@@ -19,10 +19,10 @@ namespace BehavioralDesignPatterns.Visitor.Model
 
         public void Add(Product product)
         {
-            Products.Add(product);
+            Products.Add(product);  
         }
 
-        internal void Inflation(IProductVisitor visitor)
+        internal void AcceptVisitor(IProductVisitor visitor)
         {
             foreach (var item in Products)
             {
