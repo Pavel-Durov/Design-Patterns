@@ -1,9 +1,9 @@
-﻿overed Design Patterns:
+﻿Covered Design Patterns:
 	BehavioralDesignPatterns: State / Observer / Strategy / Visitor / ChainOfResponsibility
 
 
 In this assignment we will continue the previous projects - our "GameEngine".
-TODO List:
+TODO:
 	1. Implement State pattern inside of MovementHandler which will have those states:
 		SlowMotion, Normal, HighSpeed which will advance the characters appropriately
 	

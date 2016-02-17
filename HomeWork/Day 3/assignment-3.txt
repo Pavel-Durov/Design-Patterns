@@ -1,10 +1,20 @@
-﻿Covered Design Paterns:
-	StructuralDesignPatterns: Decorator / Proxy / Flyweight / Composite / Facade
+﻿In the last assignment we used Visitor and State patterns foir our GameEngine class behavioral enrichment.
+This time, after we took a look at some Structural Design Patternswe can embed them as well in our logic:
+
+TODO:
+	Decorator Pattern :
+		Will be used as Skins/Levels of our PlayerCharacter.
+		For instance, the PlayerCharacter will begin with no decorator at all, but as he advances through the game (by gaining Points or such) he will earn diffrent Decorators...
+
+		1. Create a PlayerCharacterSheildDecorator which will give our PlayerCharacter an extra 50 Life.
+		2. Create a PlayerCharacterMadnessDecorator which will give our PlayerCharacter an extra 10 points to his Hit Damage.
+		3. Use your imagination
+
+	Flyweight Pattern :
+		1. Create an GameWorldHandler object which will be responsible for our word creation (as we initialize the GameEngine).
+		2. Bonus : Embed logic in GameWorldHandler for word change. For example: Night, Day etc...
 
 
-In this assignment we will continue the previous projects - our "GameEngine".
+	Facade:
+		1. Create Facade for our game logic. Insted of calling function after function in our "Game Loop" the facade will be responsible fo the each game iteration.
 
-TODO List:
-	1. Craete TerrainHandler which will be in charge of creating our game word. Use Flyweight for word objects generations. For instance, trees, grass etc ( no need in big amount of objects instance - just make sure you understood the pattern)...
-
-	2.  ...
