@@ -1,4 +1,5 @@
 ﻿using StructuralDesignPatterns.Adapter.Interfaces;
+using StructuralDesignPatterns.Adapter.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

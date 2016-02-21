@@ -1,5 +1,6 @@
 ﻿using StructuralDesignPatterns.Adapter.Adapters;
 using StructuralDesignPatterns.Adapter.Interfaces;
+using StructuralDesignPatterns.Adapter.Model;
 using StructuralDesignPatterns.Adapters;
 using System;
 using System.Collections.Generic;

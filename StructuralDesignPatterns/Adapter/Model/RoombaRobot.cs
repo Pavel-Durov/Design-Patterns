@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StructuralDesignPatterns.Adapter
+namespace StructuralDesignPatterns.Adapter.Model
 {
     internal class RoombaRobot 
     {
