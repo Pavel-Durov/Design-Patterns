@@ -13,18 +13,12 @@ namespace StructuralDesignPatterns.Decorator.Model
 
         public double Cost
         {
-            get
-            {
-                return COST;
-            }
+            get { return COST; }
         }
 
         public string Description
         {
-            get
-            {
-                return "Plain Cupcake";
-            }
+            get { return "Plain Cupcake"; }
         }
     }
 }

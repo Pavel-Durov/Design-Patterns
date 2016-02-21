@@ -8,7 +8,6 @@ namespace StructuralDesignPatterns.Adapter.Interfaces
 {
     interface IRobot
     {
-
         void WalkForward();
 
         void GoToDock();

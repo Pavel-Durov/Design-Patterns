@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDesignPatterns.Adapter
 {
-    internal class RoombaRobot : IRobot
+    internal class RoombaRobot 
     {
         public RoombaRobot()
         {
@@ -18,22 +18,22 @@ namespace StructuralDesignPatterns.Adapter
         const int _step = 3;
         const int _turnAngle = 90;
  
-        public void WalkForward()
+        public void AdvanceForward()
         {
             Console.WriteLine($"Robot walks {_step} steps");
         }
 
-        public void GoToDock()
+        public void GoToSleep()
         {
             Console.WriteLine("Robot distenation set to docking station");
         }
 
-        public void TurnLeft()
+        public void Turn()
         {
             Console.WriteLine($"Turning left by {_turnAngle } angle");
         }
 
-        public void ReactToHuman(string name)
+        public void DetectHuman(string name)
         {
             Console.WriteLine("Human detected...");
         }

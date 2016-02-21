@@ -47,8 +47,9 @@
   <ItemGroup>
     <Compile Include="Adapter\Interfaces\IRobot.cs" />
     <Compile Include="Adapter\Model\Humanoid.cs" />
+    <Compile Include="Adapter\Model\HumanoidRobotAdapter.cs" />
     <Compile Include="Adapter\Model\RoombaRobot.cs" />
-    <Compile Include="Adapter\RobotAdapter.cs" />
+    <Compile Include="Adapter\RoombaRobotAdapter.cs" />
     <Compile Include="Adapter\Test.cs" />
     <Compile Include="Bridge\Interfaces\DrawingAPI.cs" />
     <Compile Include="Bridge\Model\DrawingAPIs\ShapeDrawing2d.cs" />

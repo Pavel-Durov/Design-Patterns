@@ -1,4 +1,5 @@
-﻿using StructuralDesignPatterns.Adapter.Model;
+﻿using StructuralDesignPatterns.Adapter.Interfaces;
+using StructuralDesignPatterns.Adapter.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,26 +12,22 @@ namespace StructuralDesignPatterns.Adapter
     {
         public static void Run()
         {
-            RoombaRobot roomba = new RoombaRobot();
-            Humanoid humanoidRobot = new Humanoid("Boris");
+            IRobot adapter = new HumanoidRobotAdapter(new Humanoid("BORIS"));
 
 
-            RobotAdapter roombaAdapter = new RobotAdapter(roomba);
+            IRobot adapter2 = new RoombaRobotAdapter(new RoombaRobot());
 
-            roombaAdapter.TurnLeft();
-            roombaAdapter.WalkForward();
-            roombaAdapter.ReactToHuman("Shalom");
-            roombaAdapter.GoToDock();
+            SomeFunctionThatAcceptsRobot(adapter);
+            SomeFunctionThatAcceptsRobot(adapter2);
 
-            Console.WriteLine("Roomba");
+        }
 
-            RobotAdapter humanAdapter = new RobotAdapter(humanoidRobot);
-
-            humanAdapter.TurnLeft();
-            humanAdapter.WalkForward();
-            humanAdapter.GoToDock();
-
-            humanAdapter.ReactToHuman("Pavel");
+        private static void SomeFunctionThatAcceptsRobot(IRobot robot)
+        {
+            robot.ReactToHuman("Pavel");
+            robot.TurnLeft();
+            robot.GoToDock();
+            
         }
     }
 }

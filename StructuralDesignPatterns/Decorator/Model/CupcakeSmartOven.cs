@@ -15,7 +15,11 @@ namespace StructuralDesignPatterns.Decorator.Model
 
 
             Console.WriteLine(" - GENERATING Sprinkles/Cream Cupcake Decorator - ");
-            ICupcake creamSprinklesCupcake = new CreamCupcakeDecorator(new SprinklesCupcakeDecorator(new PlainCupcake()));
+            ICupcake creamSprinklesCupcake = 
+                new CreamCupcakeDecorator(
+                    new SprinklesCupcakeDecorator(
+                        new PlainCupcake()));
+
             Console.WriteLine($"Generated : {creamSprinklesCupcake.Description}");
 
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDesignPatterns.Adapter.Model
 {
-    class Humanoid : IRobot
+    public class Humanoid 
     {
         public Humanoid(string name)
         {
@@ -15,24 +15,24 @@ namespace StructuralDesignPatterns.Adapter.Model
         }
         public string Name { get; private set; }
 
-        public void GoToDock()
+        public void GoHome()
         {
             Console.WriteLine("I don't have a dock station cause I'm special");
         }
 
-        public void ReactToHuman(string name)
+        public void SayHelloTo(string name)
         {
             Console.WriteLine($"Hello my nae is {Name}, what's yours?");
         }
 
-        public void TurnLeft()
+        public void Turn()
         {
-            Console.WriteLine($"My name is {Name} and I am turning left");
+            Console.WriteLine("Don't tell me what to do");
         }
 
-        public void WalkForward()
+        public void Advance()
         {
-            Console.WriteLine($"My name is {Name} and I am walking farward");
+            Console.WriteLine("I ahve my own will");
         }
     }
 }

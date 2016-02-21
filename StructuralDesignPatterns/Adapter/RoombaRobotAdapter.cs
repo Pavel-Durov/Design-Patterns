@@ -7,37 +7,35 @@ using System.Threading.Tasks;
 
 namespace StructuralDesignPatterns.Adapter.Model
 {
-    class RobotAdapter : IRobot
+    class RoombaRobotAdapter : IRobot
     {
         
-        public RobotAdapter(IRobot robot)
+        public RoombaRobotAdapter(RoombaRobot robot)
         {
             _robot = robot;
         }
 
-        IRobot _robot;
-
-        private RoombaRobot robot;
-
-        public void WalkForward()
-        {
-            _robot.WalkForward();
-        }
+        private RoombaRobot _robot;
 
         public void GoToDock()
         {
-            _robot.GoToDock();
+            _robot.GoToSleep();
         }
 
         
         public void TurnLeft()
         {
-            _robot.TurnLeft();
+            _robot.Turn();
         }
 
         public void ReactToHuman(string name)
         {
-            _robot.ReactToHuman(name);
+            _robot.DetectHuman(name);
+        }
+
+        public void WalkForward()
+        {
+            _robot.AdvanceForward();
         }
     }
 }
