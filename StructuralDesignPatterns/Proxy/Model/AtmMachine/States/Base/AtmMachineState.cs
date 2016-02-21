@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BehavioralDesignPatterns.State.States.Base
 {
-    abstract class AtmMachineState
+    public abstract class AtmMachineState
     {
         public AtmMachineState(AtmMachine context)
         {

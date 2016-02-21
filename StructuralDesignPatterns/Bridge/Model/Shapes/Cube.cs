@@ -9,7 +9,7 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
 {
     class Cube : DrawableShape
     {
-        public Cube(DrawingAPI api, double x, double y, double width) : base(api)
+        public Cube(IDrawingAPI api, double x, double y, double width) : base(api)
         {
             TopLeftX = x;
             TopLeftY = y;
@@ -26,11 +26,6 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
         public override void ResizeByPercentage(double percent)
         {
             Width *= percent;
-        }
-
-        public override void Draw()
-        {
-            _api.Draw(this);
         }
 
         public override string ToString()

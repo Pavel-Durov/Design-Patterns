@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDesignPatterns.Bridge.Model.DrawingAPIs
 {
-    class ShapeDrawing3d : DrawingAPI
+    class ShapeDrawing3d : IDrawingAPI
     {
         public void Draw(DrawableShape shape)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StructuralDesignPatterns.Bridge.Interfaces
 {
-    interface DrawingAPI
+    interface IDrawingAPI
     {
         void Draw(DrawableShape shape);
     }

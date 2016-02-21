@@ -34,11 +34,9 @@ namespace StructuralDesignPatterns.Composite.Model
             driveC.Add(emptyDir);
             driveC.Add(documents);
             
-
             Console.WriteLine("Thats what I've done");
 
             driveC.DisplayInfo();
-
 
         }
 

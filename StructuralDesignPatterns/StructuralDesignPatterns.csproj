@@ -51,7 +51,7 @@
     <Compile Include="Adapter\Model\RoombaRobot.cs" />
     <Compile Include="Adapter\Adapters\RoombaRobotAdapter.cs" />
     <Compile Include="Adapter\Test.cs" />
-    <Compile Include="Bridge\Interfaces\DrawingAPI.cs" />
+    <Compile Include="Bridge\Interfaces\IDrawingAPI.cs" />
     <Compile Include="Bridge\Model\DrawingAPIs\ShapeDrawing2d.cs" />
     <Compile Include="Bridge\Model\DrawingAPIs\ShapeDrawing3d.cs" />
     <Compile Include="Bridge\Model\Shapes\Base\DrawableShape.cs" />
@@ -61,8 +61,9 @@
     <Compile Include="Bridge\Test.cs" />
     <Compile Include="Composite\Model\Directory.cs" />
     <Compile Include="Composite\Model\File.cs" />
-    <Compile Include="Composite\Model\FileComponent.cs" />
+    <Compile Include="Composite\Model\Base\FileComponent.cs" />
     <Compile Include="Composite\Model\SystemAdministrator.cs" />
+    <Compile Include="Composite\Model\ZipFileComponent.cs" />
     <Compile Include="Composite\Test.cs" />
     <Compile Include="Decorator\Decorators\CreamCupcakeDecorator.cs" />
     <Compile Include="Decorator\Decorators\Base\CupcakeDecorator.cs" />

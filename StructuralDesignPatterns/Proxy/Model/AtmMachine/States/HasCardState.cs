@@ -13,7 +13,7 @@ namespace BehavioralDesignPatterns.State.States
         public HasCardState(AtmMachine context) : base(context)
         {
         }
-
+        
         public override void EjectCard()
         {
             Console.WriteLine("Ejecting Card");

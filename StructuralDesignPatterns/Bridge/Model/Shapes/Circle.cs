@@ -10,7 +10,7 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
     class Circle : DrawableShape
     {
 
-        public Circle(DrawingAPI api, double x, double y, double radius) : base(api)
+        public Circle(IDrawingAPI api, double x, double y, double radius) : base(api)
         {
             CenterX = x;
             CenterY = y;
@@ -27,11 +27,7 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
         {
             Radius += percent;
         }
-
-        public override void Draw()
-        {
-            _api.Draw(this);
-        }
+        
 
         public override string ToString()
         {

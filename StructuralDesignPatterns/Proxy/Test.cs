@@ -1,4 +1,5 @@
 ﻿using BehavioralDesignPatterns.State.Model;
+using BehavioralDesignPatterns.State.States;
 using StructuralDesignPatterns.Proxy.Model;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,9 @@ namespace StructuralDesignPatterns.Proxy
     {
         public static void Run()
         {
+
             AtmMachineProxy proxy = new AtmMachineProxy();
+
             Console.WriteLine("Testing state with right pin");
             
             proxy.InsertCard();

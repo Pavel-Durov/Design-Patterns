@@ -9,7 +9,7 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
 {
     class Sphere : DrawableShape
     {
-        public Sphere(DrawingAPI api, double x, double y, double radius) : base(api)
+        public Sphere(IDrawingAPI api, double x, double y, double radius) : base(api)
         {
             CenterX = x;
             CenterY = y;
@@ -24,11 +24,6 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
         public override void ResizeByPercentage(double percent)
         {
             Radius += percent;
-        }
-
-        public override void Draw()
-        {
-            _api.Draw(this);
         }
 
         public override string ToString()

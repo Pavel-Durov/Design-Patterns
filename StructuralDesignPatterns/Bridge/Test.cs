@@ -9,6 +9,7 @@ namespace StructuralDesignPatterns.Bridge
         {
             var api2d = new ShapeDrawing2d();
             var api3d = new ShapeDrawing3d();
+
             var shapesArr = new DrawableShape[]{
                 new Circle(api2d, 1, 3, 7),
                 new Circle(api3d, 1, 3, 7),

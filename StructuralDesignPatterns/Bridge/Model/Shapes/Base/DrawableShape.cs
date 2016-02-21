@@ -9,14 +9,17 @@ namespace StructuralDesignPatterns.Bridge.Model.Shapes
 {
     abstract class DrawableShape
     {
-        public DrawableShape(DrawingAPI api)
+        public DrawableShape(IDrawingAPI api)
         {
             _api = api;
         }
 
-        protected DrawingAPI _api;
+        protected IDrawingAPI _api;
 
-        public abstract void Draw();
+        public virtual void Draw()
+        {
+            _api.Draw(this);
+        }
 
         public abstract void ResizeByPercentage(double percent);
     }
