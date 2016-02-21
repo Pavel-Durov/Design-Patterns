@@ -59,11 +59,11 @@
     <Compile Include="Bridge\Model\Shapes\Cube.cs" />
     <Compile Include="Bridge\Model\Shapes\Sphere.cs" />
     <Compile Include="Bridge\Test.cs" />
-    <Compile Include="Composite\Model\Directory.cs" />
-    <Compile Include="Composite\Model\File.cs" />
-    <Compile Include="Composite\Model\Base\FileComponent.cs" />
+    <Compile Include="Composite\Model\FileComponents\Directory.cs" />
+    <Compile Include="Composite\Model\FileComponents\File.cs" />
+    <Compile Include="Composite\Model\FileComponents\Base\FileComponent.cs" />
     <Compile Include="Composite\Model\SystemAdministrator.cs" />
-    <Compile Include="Composite\Model\ZipFileComponent.cs" />
+    <Compile Include="Composite\Model\FileComponents\ZipFileComponent.cs" />
     <Compile Include="Composite\Test.cs" />
     <Compile Include="Decorator\Decorators\CreamCupcakeDecorator.cs" />
     <Compile Include="Decorator\Decorators\Base\CupcakeDecorator.cs" />
