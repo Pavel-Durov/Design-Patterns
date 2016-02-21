@@ -1,11 +1,12 @@
 ﻿using StructuralDesignPatterns.Adapter.Interfaces;
+using StructuralDesignPatterns.Adapter.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StructuralDesignPatterns.Adapter.Model
+namespace StructuralDesignPatterns.Adapters
 {
     class HumanoidRobotAdapter : IRobot
     {

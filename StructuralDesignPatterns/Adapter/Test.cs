@@ -1,5 +1,6 @@
-﻿using StructuralDesignPatterns.Adapter.Interfaces;
-using StructuralDesignPatterns.Adapter.Model;
+﻿using StructuralDesignPatterns.Adapter.Adapters;
+using StructuralDesignPatterns.Adapter.Interfaces;
+using StructuralDesignPatterns.Adapters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace StructuralDesignPatterns.Adapter
             IRobot adapter2 = new RoombaRobotAdapter(new RoombaRobot());
 
             SomeFunctionThatAcceptsRobot(adapter);
+            Console.WriteLine(" ~~~~ ");
             SomeFunctionThatAcceptsRobot(adapter2);
 
         }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StructuralDesignPatterns.Adapter.Model
+namespace StructuralDesignPatterns.Adapter.Adapters
 {
     class RoombaRobotAdapter : IRobot
     {
@@ -22,7 +22,6 @@ namespace StructuralDesignPatterns.Adapter.Model
             _robot.GoToSleep();
         }
 
-        
         public void TurnLeft()
         {
             _robot.Turn();
