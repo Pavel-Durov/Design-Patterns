@@ -1,10 +1,18 @@
-﻿In the last assignment we used Visitor and State patterns foir our GameEngine class behavioral enrichment.
+﻿
+You can choose one of the following assignments, or you can do them both :)
+
+------------------------------------------
+-- First Choice:
+------------------------------------------
+
+In the last assignment we used Visitor and State patterns for our GameEngine class behavioral enrichment.
 This time, after we took a look at some Structural Design Patternswe can embed them as well in our logic:
 
-TODO:
-	Decorator Pattern :
-		Will be used as Equipment of our PlayerCharacter - such as Shield, Halmet, Sword, etc...
-		For instance, the PlayerCharacter will begin with no decorators at all, but as he advances through the game (by gaining Points or such) he will earn diffrent Decorators...
+GameEngine Assignmnet : 
+
+	Decorator Pattern:
+		Will be used as Equipment of our PlayerCharacter - such as Shield, Helmet, Sword, etc...
+		For instance, the PlayerCharacter will begin with no decorators at all, but as he advances through the game (by gaining Points or such) he will earn different Decorators...
 		
 		
 		1. Create a CharacterShieldItem which will give our PlayerCharacter an extra 50 Life.
@@ -12,5 +20,73 @@ TODO:
 		3. Use your imagination.. :)
 
 	Facade Pattern:
-		1. Create Facade for our game logic. Insted of calling function after function in our "Game Loop" the facade will be responsible fo the each game iteration.
+		1. Create Facade for our game logic. Instead of calling function after function in our "Game Loop" the facade will be responsible for the each game iteration.
 
+------------------------------------------
+-- Second Choice:
+------------------------------------------
+
+
+Another Assignment (no GameEngine involved):
+
+Design Pattern Day3:
+
+Proxy Pattern:
+
+	TODO: 
+		1. Create a Car Proxy which will accept Driver in its constructor.
+		2. Create an instance of a car object
+		3. Implement DriveCarProxy function, which will check if the driver is drunk or underage and behave appropriately.
+		
+    interface ICar
+    {
+        void DriveCar();
+    }
+
+    public class Car : ICar
+    {
+        public void DriveCar()
+        {
+            Console.WriteLine("Car has been driven!");
+        }
+    }
+
+    public class Driver
+    {
+		public bool IsDrunk { get; set; }
+        public int Age { get; set; }
+
+        public Driver(int age)
+        {
+            this.Age = age;
+        }
+    }
+
+Decorator Pattern:
+
+	TODO: 
+		Create a Pizza with different topping decorators.
+		1. Create at least 3 various toppings (Olives, Cheese, Mushrooms, etc...)
+		2. Implement the Decorator pattern with 3 different variations.
+		3. Pizza object/interface should have at least two properties: Price and Description.
+		
+	Link to my Decorator example on GitHub:
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/tree/master/StructuralDesignPatterns/Decorator
+
+		
+	
+Facade Pattern:
+
+	Remember our AtmMachine state pattern? We used it for describing Proxy pattern, this time you will be needed to create a Facade for it.
+	
+
+	Link to my Facade example on GitHub:
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/blob/master/BehavioralDesignPatterns/State/Model/AtmMachine.cs		
+	
+	TODO: 
+		1. Create a Facade for our AtmMachine which will deal with all our bank authority logic.
+		2. Each state will ask facade for the requested functionality, such as Withdraw, Pin code validation etc. Just look at our AtmMachine Example and act accordingly
+	
+
+	
+	
