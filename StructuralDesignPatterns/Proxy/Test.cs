@@ -14,23 +14,8 @@ namespace StructuralDesignPatterns.Proxy
         public static void Run()
         {
 
-            AtmMachineProxy proxy = new AtmMachineProxy();
-
-            Console.WriteLine("Testing state with right pin");
-            
-            proxy.InsertCard();
-            proxy.EnterPinCode(123);
-            proxy.RequestCash(600);
-            proxy.EjectCard();
-
-            //Wrong pin
-            Console.WriteLine("Testing state with wrong pin");
-            proxy.InsertCard();
-            proxy.EnterPinCode(890);
-            proxy.RequestCash(600);
-            proxy.EjectCard();
-
-
+            //AtmMachineExample.Test.Run();
+            BasicMathExample.Test.Run ();
         }
     }
 }

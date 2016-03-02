@@ -96,14 +96,18 @@
     <Compile Include="Flyweight\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proxy\Interfaces\ICashProvider.cs" />
-    <Compile Include="Proxy\Model\AtmMachineProxy.cs" />
-    <Compile Include="Proxy\Model\AtmMachine\Model\AtmMachine.cs" />
-    <Compile Include="Proxy\Model\AtmMachine\States\Base\AtmMachineState.cs" />
-    <Compile Include="Proxy\Model\AtmMachine\States\HasCardState.cs" />
-    <Compile Include="Proxy\Model\AtmMachine\States\HasPinState.cs" />
-    <Compile Include="Proxy\Model\AtmMachine\States\NoCardState.cs" />
-    <Compile Include="Proxy\Model\AtmMachine\States\NoCashState.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Interfaces\ICashProvider.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachineProxy.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachine\Model\AtmMachine.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachine\States\Base\AtmMachineState.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachine\States\HasCardState.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachine\States\HasPinState.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachine\States\NoCardState.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Model\AtmMachine\States\NoCashState.cs" />
+    <Compile Include="Proxy\AtmMachineExample\Test.cs" />
+    <Compile Include="Proxy\BasicMathExample\Interfaces\IBasicMath.cs" />
+    <Compile Include="Proxy\BasicMathExample\Model\BasicMathProxy.cs" />
+    <Compile Include="Proxy\BasicMathExample\Test.cs" />
     <Compile Include="Proxy\Test.cs" />
   </ItemGroup>
   <ItemGroup>

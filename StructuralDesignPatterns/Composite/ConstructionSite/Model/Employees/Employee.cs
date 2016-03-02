@@ -8,7 +8,10 @@ namespace StructuralDesignPatterns.Composite.ConstructionSite.Model
         private string _firstName;
         private string _lastName;
 
-        public virtual string Description { get { return $"-- {_firstName} {_lastName}"; } }
+        public virtual string Description
+        {
+            get { return $"-- {_firstName} {_lastName}"; }
+        }
 
         public Employee(string firstName, string lastName)
         {
