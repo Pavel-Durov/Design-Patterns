@@ -10,10 +10,10 @@ namespace StructuralDesignPatterns
     {
         static void Main(string[] args)
         {
-            //Composite.Test.Run();
+            Composite.Test.Run();
             //Decorator.Test.Run();
             //Flyweight.Test.Run();
-            Adapter.Test.Run();
+            //Adapter.Test.Run();
             //Proxy.Test.Run();
             //Facade.Test.Run();
             //Bridge2.Test.Run();

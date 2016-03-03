@@ -1,21 +1,14 @@
-﻿using StructuralDesignPatterns.Composite.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StructuralDesignPatterns.Composite
+﻿namespace StructuralDesignPatterns.Composite
 {
     class Test
     {
         public static void Run()
         {
-            SystemAdministrator admin = new SystemAdministrator();
-            admin.DoYourJob();
+            //Example No. 1
+            //SystemAdministrator.Test.Run();
 
-
-            //admin.DoSomethingStupid();
+            //Example No.2
+            ConstructionSite.Test.Run();
         }
     }
 }

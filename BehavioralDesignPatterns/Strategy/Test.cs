@@ -12,19 +12,7 @@ namespace BehavioralDesignPatterns.Strategy
     {
         public static void Run()
         {
-            Animal cow = new Cow(80);
-            Animal bear = new Bear(80);    
-            Animal duck = new Duck(100);
-
-            Console.WriteLine(cow.Sound);
-            Console.WriteLine(cow.TryToFly());
-
-            Console.WriteLine(bear.Sound);
-            Console.WriteLine(bear.TryToFly());
-
-            Console.WriteLine(duck.Sound);
-            Console.WriteLine(duck.TryToFly());
-            
+            AnimalsExample.Test.Run();
         }
     }
 }
