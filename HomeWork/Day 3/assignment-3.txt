@@ -62,6 +62,11 @@ Proxy Pattern:
         }
     }
 
+			
+	Link :
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/tree/master/StructuralDesignPatterns/Proxy
+
+
 Decorator Pattern:
 
 	TODO: 
