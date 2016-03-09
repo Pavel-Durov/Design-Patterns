@@ -13,6 +13,7 @@ namespace BehavioralDesignPatterns.Strategy
         public static void Run()
         {
             AnimalsExample.Test.Run();
+            //SortedListExample.Test.Run();
         }
     }
 }
