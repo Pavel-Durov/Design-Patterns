@@ -73,9 +73,14 @@
     <Compile Include="Factory\FactoryMethod\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prototype\Model\Computer.cs" />
-    <Compile Include="Prototype\Model\GraphicsCard.cs" />
-    <Compile Include="Prototype\Model\MotherBoard.cs" />
+    <Compile Include="Prototype\ColorExample\Model\Colors\Base\ColorPrototype.cs" />
+    <Compile Include="Prototype\ColorExample\Model\Colors\Color.cs" />
+    <Compile Include="Prototype\ColorExample\Model\ColorPalette.cs" />
+    <Compile Include="Prototype\ColorExample\Test.cs" />
+    <Compile Include="Prototype\ComputerMachineExample\Model\Computer.cs" />
+    <Compile Include="Prototype\ComputerMachineExample\Model\GraphicsCard.cs" />
+    <Compile Include="Prototype\ComputerMachineExample\Model\MotherBoard.cs" />
+    <Compile Include="Prototype\ComputerMachineExample\Test.cs" />
     <Compile Include="Prototype\Test.cs" />
     <Compile Include="SingleTone\SingleToneDemo.cs" />
     <Compile Include="SingleTone\SingleToneLazyDemo.cs" />
@@ -85,7 +90,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Prototype\READ_ME.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
