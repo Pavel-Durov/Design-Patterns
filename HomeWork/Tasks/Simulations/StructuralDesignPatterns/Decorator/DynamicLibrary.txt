@@ -1,0 +1,34 @@
+﻿
+TODO: 
+	1. Create an object called LibraryItem , this will be our base item in our library.
+	  abstract class LibraryItem
+	  {
+		public int NumCopies{get;set;}
+		public abstract void Display();
+	  }
+
+	2. Craete a Book, Video, Journal classes which will derive from LibraryItem.
+	
+	3. Create a Decorator class which will allso derive from the abstract class LibraryItem
+		
+		abstract class Decorator : LibraryItem
+		  {
+			protected LibraryItem libraryItem;
+ 
+			public Decorator(LibraryItem libraryItem)
+			{
+			  this.libraryItem = libraryItem;
+			}
+ 
+			public override void Display()
+			{
+			  libraryItem.Display();
+			}
+		  }
+	
+	4. Create BorrowableDecorator class which will derive from Decorator, and will hold the history of all borrowers for current item.
+
+		this class will have those functions:
+			 public void Borrow(string borrowerName)
+			 public void Return(string borrowerName)
+	

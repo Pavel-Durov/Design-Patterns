@@ -1,0 +1,24 @@
+﻿We are going to implement a chat thread, our chat can contain 3 types of messages: 
+	1. Text Message
+	2. Video Message
+	
+
+Text Message
+	Display: Text
+
+Video Message
+	Display: Thumbnail/Video (Depends on state)
+
+Vide Message can be in three states:
+	Pause, Play, Stop
+
+	Default State: Stop
+
+	Stop State  -> Shows Thumbnail + shows Play Button.
+	Pause State -> Shows current frame of the video + shows Play Button.
+	Play State  -> Plays the video + shows the Pause button.
+
+	States Flow:
+		Stop -> Play -> Pause -> Play
+
+	* Changing From Play state to Stop can be accomplish, only by playing the next message.

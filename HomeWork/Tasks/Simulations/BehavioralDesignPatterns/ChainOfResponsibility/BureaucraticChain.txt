@@ -1,0 +1,31 @@
+﻿In this assignment, we are going to create a chain of responsibility of bureaucratic hierarchy.
+
+
+TODO: 
+	1. Create Purchase class, which will describe (surprisingly) "Purchase" object.
+		Our Purchase object will have those properties:
+			int Number, double Amount, string Purpose
+	
+	 
+	2. Create abstract class called Approver:
+		 abstract class Approver
+		 {
+		   protected Approver successor;
+		
+		   public void SetSuccessor(Approver successor)
+		   {
+		     this.successor = successor;
+		   }
+			
+		   public abstract void ProcessRequest(Purchase purchase);
+		 }
+	
+	3. Create another three objcets : VicePresident, President Director which will be a subclasses of our abstract Approver class.
+
+	4. Create a chain of responsibility by those restrictions:
+
+		1. Director can approve only Director Purchase which Amount is under 200
+		2. VicePresident can approve only Director Purchase which Amount is under 1000
+		3. President can approve only Director Purchase which Amount is under 100000
+
+	5. What shall we do if no one can approve the Purchase?

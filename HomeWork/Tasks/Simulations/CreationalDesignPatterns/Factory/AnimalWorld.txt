@@ -1,0 +1,32 @@
+﻿In this assignment, you will be asked to create an AnimalWorld object which uses Factories for its animal generation
+
+Create two base kinds of entities:
+	Carnivore (Meat Eater), Herbivore (Herb eater)
+	1.	Carnivore will have one abstract method:
+		Eat(Herbivore h);
+
+
+	Examples:
+		Lion  (Carnivore, Africa)
+		Bison (Herbivore, America)
+		Wolf  (Carnivore, Africa/America/Asia)
+		Panda (Herbivore, Asia)
+		Bunny (Herbivore, America/Asia)
+
+	2. Create an abstract ContinentFactory
+		With two abstract methods:
+			CreateHerbivore, CreateCarnivore
+
+	3. Create Concreate Factories:
+		AfricaFactory : ContinentFactory
+		AsiaFactory : ContinentFactory
+		AmericaFactory : ContinentFactory
+
+	4. Create another class called AnimalWorld.
+
+		AnimalWorld will have a constructor with ContinentFactory as a parameter and will generate the Herbivore and Carnivore objects using delegation.
+
+		AnimalWorld will have also, another method:
+			RunFoodChain (which will call Eat method of our Carnivore object);
+
+	5. Create AnimalWorld and Factories, and call RunFoodChain!
