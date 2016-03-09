@@ -40,18 +40,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Characters\Base\GameCharacter.cs" />
-    <Compile Include="Model\Characters\Enemies\CaveMonsterCharacter.cs" />
-    <Compile Include="Model\Characters\Enemies\GhostCharacter.cs" />
-    <Compile Include="Model\Characters\PlayerCharacter.cs" />
-    <Compile Include="Model\GameEngine.cs" />
+    <Compile Include="Tasks\RealLife\GameEngine\Model\Characters\Base\GameCharacter.cs" />
+    <Compile Include="Tasks\RealLife\GameEngine\Model\Characters\Enemies\CaveMonsterCharacter.cs" />
+    <Compile Include="Tasks\RealLife\GameEngine\Model\Characters\Enemies\GhostCharacter.cs" />
+    <Compile Include="Tasks\RealLife\GameEngine\Model\Characters\PlayerCharacter.cs" />
+    <Compile Include="Tasks\RealLife\GameEngine\Model\GameEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Day 1\assignment-1.txt" />
-    <Content Include="Day 2\assignment-2.txt" />
-    <Content Include="Day 3\assignment-3.txt" />
-    <Content Include="Day 4\assignment.txt" />
+    <Content Include="Tasks\RealLife\ChatThread-StatePattern\assignment.txt" />
+    <Content Include="Tasks\RealLife\GameEngine\Day 1\assignment-1.txt" />
+    <Content Include="Tasks\RealLife\GameEngine\Day 2\assignment-2.txt" />
+    <Content Include="Tasks\RealLife\GameEngine\Day 3\assignment-3.txt" />
+    <Content Include="Tasks\Simulations\BehavioralDesignPatterns\ChainOfResponsibility\BureaucraticChain.txt" />
+    <Content Include="Tasks\Simulations\BehavioralDesignPatterns\Strategy\SortedList.txt" />
+    <Content Include="Tasks\Simulations\CreationalDesignPatterns\Factory\AnimalWorld.txt" />
+    <Content Include="Tasks\Simulations\StructuralDesignPatterns\Decorator\DynamicLibrary.txt" />
+    <Content Include="Tasks\Simulations\StructuralDesignPatterns\Decorator\PizzaDecorator.txt" />
+    <Content Include="Tasks\Simulations\StructuralDesignPatterns\Facade\ArmMachineFacade.txt" />
+    <Content Include="Tasks\Simulations\StructuralDesignPatterns\Proxy\CarProxy.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Tasks\RealLife\GameEngine\Day 1\Day1.7z" />
+    <None Include="Tasks\RealLife\GameEngine\Day 2\Day2.7z" />
+    <None Include="Tasks\RealLife\GameEngine\Day 3\Day3.7z" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

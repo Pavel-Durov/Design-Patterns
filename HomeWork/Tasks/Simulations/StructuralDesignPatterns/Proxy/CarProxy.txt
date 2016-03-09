@@ -1,0 +1,32 @@
+﻿	TODO: 
+		1. Create a Car Proxy which will accept Driver in its constructor.
+		2. Create an instance of a car object
+		3. Implement DriveCarProxy function, which will check if the driver is drunk or underage and behave appropriately.
+		
+    interface ICar
+    {
+        void DriveCar();
+    }
+
+    public class Car : ICar
+    {
+        public void DriveCar()
+        {
+            Console.WriteLine("Car has been driven!");
+        }
+    }
+
+    public class Driver
+    {
+		public bool IsDrunk { get; set; }
+        public int Age { get; set; }
+
+        public Driver(int age)
+        {
+            this.Age = age;
+        }
+    }
+
+			
+	Link :
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/tree/master/StructuralDesignPatterns/Proxy

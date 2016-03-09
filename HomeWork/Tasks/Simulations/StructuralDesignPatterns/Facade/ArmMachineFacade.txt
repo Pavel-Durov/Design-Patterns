@@ -1,0 +1,12 @@
+﻿Facade Pattern:
+
+	Remember our AtmMachine state pattern? We used it for describing Proxy pattern, this time you will be needed to create a Facade for it.
+	
+
+	Link to my Facade example on GitHub:
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/blob/master/BehavioralDesignPatterns/State/Model/AtmMachine.cs		
+	
+	TODO: 
+		1. Create a Facade for our AtmMachine which will deal with all our bank authority logic.
+		2. Each state will ask facade for the requested functionality, such as Withdraw, Pin code validation etc. Just look at our AtmMachine Example and act accordingly
+	

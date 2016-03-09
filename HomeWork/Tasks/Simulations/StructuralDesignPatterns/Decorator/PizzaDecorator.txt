@@ -1,0 +1,22 @@
+﻿	TODO: 
+		Create a Pizza with different topping decorators.
+		1. Create at least 3 various toppings (Olives, Cheese, Mushrooms, etc...)
+		2. Implement the Decorator pattern with 3 different variations.
+		3. Pizza object/interface should have at least two properties: Price and Description.
+		
+	Link to my Decorator example on GitHub:
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/tree/master/StructuralDesignPatterns/Decorator
+
+		
+	
+Facade Pattern:
+
+	Remember our AtmMachine state pattern? We used it for describing Proxy pattern, this time you will be needed to create a Facade for it.
+	
+
+	Link to my Facade example on GitHub:
+		https://github.com/Pavel-Durov/DesignPatterns-DN7/blob/master/BehavioralDesignPatterns/State/Model/AtmMachine.cs		
+	
+	TODO: 
+		1. Create a Facade for our AtmMachine which will deal with all our bank authority logic.
+		2. Each state will ask facade for the requested functionality, such as Withdraw, Pin code validation etc. Just look at our AtmMachine Example and act accordingly
