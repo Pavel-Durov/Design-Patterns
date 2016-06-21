@@ -1,0 +1,35 @@
+﻿In this assignment, we are going to implement ProcessExplorer class.
+
+As you know, there is a lot of differences between 32 and 64 bit processes – that's why we need two different approaches for our Explorer.
+
+You will be required to create a Process Explorer that will have 2 Strategies:
+	Processx86Strategy, 	Processx64Strategy 
+
+Classes - 
+
+	Process:
+		UInt AddressSize;
+		UInt ThreadCount;
+		UInt PID;
+		String Description;
+		String UserName;
+		ImageType Type; //(32/64 bit type – need to be implemented as enum)
+
+	Processx64: Process
+		Override UInt AddressSize;
+		Override ImageType Type;
+
+	Processx86: Process
+		Override UInt AddressSize;
+		Override ImageType Type;
+
+
+	ProcessExplorer:
+		Public	ProcessExplorer(ProcessxStrategy strategy);
+		public Explore(); //Your own implementation (print some process data to console) 
+
+
+
+
+
+

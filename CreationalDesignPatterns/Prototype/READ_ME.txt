@@ -4,6 +4,9 @@ The MemberwiseClone method creates a shallow copy by creating a new object, and 
 
 
 -- Why using MemberwiseClone?
+-- What is the purpose of IClonable interface?
+-- What's the difference between shallow and deep copy?
+
 
 Docs:
 https://msdn.microsoft.com/en-us/library/system.object.memberwiseclone.aspx

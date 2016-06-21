@@ -1,4 +1,4 @@
-﻿namespace CreationalDesignPatterns.Prototype.Model
+﻿namespace CreationalDesignPatterns.Prototype.Model.ComputerComponents
 {
     class GraphicsCard
     {
