@@ -1,9 +1,4 @@
 ﻿using BehavioralDesignPatterns.Command.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BehavioralDesignPatterns.Command
 {
@@ -17,8 +12,6 @@ namespace BehavioralDesignPatterns.Command
             remote.VolumeDown.Press();
             remote.On.Press();
             remote.Off.Press();
-            
-            //remote.Buttons
         }
     }
 }

@@ -78,8 +78,8 @@
     <Compile Include="Prototype\ColorExample\Model\ColorPalette.cs" />
     <Compile Include="Prototype\ColorExample\Test.cs" />
     <Compile Include="Prototype\ComputerMachineExample\Model\Computer.cs" />
-    <Compile Include="Prototype\ComputerMachineExample\Model\GraphicsCard.cs" />
-    <Compile Include="Prototype\ComputerMachineExample\Model\MotherBoard.cs" />
+    <Compile Include="Prototype\ComputerMachineExample\Model\ComputerComponents\GraphicsCard.cs" />
+    <Compile Include="Prototype\ComputerMachineExample\Model\ComputerComponents\MotherBoard.cs" />
     <Compile Include="Prototype\ComputerMachineExample\Test.cs" />
     <Compile Include="Prototype\Test.cs" />
     <Compile Include="SingleTone\SingleToneDemo.cs" />

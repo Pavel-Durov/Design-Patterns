@@ -21,7 +21,6 @@ namespace BehavioralDesignPatterns.Strategy.AnimalsExample
             Console.WriteLine(duck.Sound);
             Console.WriteLine(duck.TryToFly());
 
-
         }
     }
 }

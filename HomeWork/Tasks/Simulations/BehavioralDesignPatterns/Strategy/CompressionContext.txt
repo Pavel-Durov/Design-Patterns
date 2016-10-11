@@ -1,0 +1,14 @@
+﻿
+In this assignment we'll create a class called CompressionContext this class will be responsible for our file compression logic.
+
+Compression Strategies:
+    ZipCompressionStrategy, 
+    RarCompressionStrategy, 
+    7zipCompressionStrategy
+	
+CompressionContext functionality:
+    CompressionContext(CompressStrategy strategy);
+    public void Compress(List<FileInfo> files, string outputFilePath);
+	
+* There is no need to write the actual compression mechanism, just write some basic info to the Console.
+
